@@ -43,10 +43,10 @@ windows에서 만든 애플리케이션이  다른 OS에서 사용가능하려�
  
 + **자바 단축키**  
     - **ctrl+shift+L** 단축키 전체 목록보기  
- - **ctrl+D** 한줄삭제  
- - **ctrl+alt+down** 행단위 복사  
- - **alt+shift+A** 멀티컬럼 편집  
- - **alt+up, down** 행단위 이동  
- - **ctrl+i** 자동 들여쓰기  
- - **ctrl+ /** 주석(토글)  
- - **ctrl+space**  자동완성
+    - **ctrl+D** 한줄삭제  
+    - **ctrl+alt+down** 행단위 복사  
+    - **alt+shift+A** 멀티컬럼 편집  
+    - **alt+up, down** 행단위 이동  
+    - **ctrl+i** 자동 들여쓰기  
+    - **ctrl+ /** 주석(토글)  
+    - **ctrl+space**  자동완성
