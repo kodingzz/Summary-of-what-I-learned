@@ -42,7 +42,7 @@ windows에서 만든 애플리케이션이  다른 OS에서 사용가능하려�
 >>4.실행
  
 + **자바 단축키**  
- - **ctrl+shift+L** 단축키 전체 목록보기  
+    - **ctrl+shift+L** 단축키 전체 목록보기  
  - **ctrl+D** 한줄삭제  
  - **ctrl+alt+down** 행단위 복사  
  - **alt+shift+A** 멀티컬럼 편집  
