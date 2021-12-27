@@ -27,7 +27,7 @@
 
 **char형은 문자한개만 받을 수 있다. string형은 여러문자를 받는다.**  
 Ex)  
-char ch='A'; / string str='abcdcd';  
+char ch='A'; / String str='abcdcd';  
 byte b =127; /범위: -128~127
 byte b= 128; / error  
 
@@ -47,3 +47,16 @@ int bin=0b0101;    /2진수로 표현
 3. byte,short 변수에 int 리터럴 저장가능
     - byte b=123;
 # 문자와 문자열
+String s ="A";
+String s=" "; // 문자열은 빈 문자열 가능
+char s=''; // error  문자는 빈 문자 불가능 
+
+ex)  
+"" + 7 -> "7" // 숫자 +빈 문자열 ->문자열(숫자)  
+7+""+7 -> "7" +7 -> "7" +"7" -> "77"  
+
+
+    
+
+                                 
+                                 
