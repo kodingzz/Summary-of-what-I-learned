@@ -20,6 +20,19 @@
 ## 상수,리터럴
 상수:한번만 값을 저장 가능한 변수  ex) final int MAX=100; //MAX는 상수
 리터럴: 그 자체로 값을 의마하는 것 ex)100,200,'A'
+# 리터럴의 접미사
+정수형- 접미사 **L**(long)  ex)100L  
+실수형- 접미사 **f,d**(float,double) ex)1.4f  
+
+**char형은 문자한개만 받을 수 있다. string형은 여러문자를 받는다.**  
+EX)  
+char ch='A'; / string str='abcdcd';  
+byte b =127; /범위: -128~127
+byte b= 128; / error  
+# 리터럴 접두사
+int oct=0100; /8진수로 표현  
+int hex=0x100l; /16진수로 표현  
+int bin=0b0101; /2진수로 표현  
 
 
 
