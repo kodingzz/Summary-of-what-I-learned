@@ -46,4 +46,4 @@ int bin=0b0101;    /2진수로 표현
     - long l=3.14f; / long<float
 3. byte,short 변수에 int 리터럴 저장가능
     - byte b=123;
-                              
+# 문자와 문자열
