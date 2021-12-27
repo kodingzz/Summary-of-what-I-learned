@@ -39,4 +39,11 @@ int bin=0b0101;    /2진수로 표현
 # 변수와 리터럴의 타입 불일치
 1. 범위가 변수>리터럴 인 경우 가능  
     - int i='A';  /문자 'A'의 문자코드 65가 i에 저장됨
-    
+    - long l=123; /long>int
+    - double d=3.14f; / double >float
+2. 범위가 변수<리터럴 인 경우 불가능
+    - int i=3000000000; / int의 범위를 벗어남.
+    - long l=3.14f; / long<float
+3. byte,short 변수에 int 리터럴 저장가능
+    - byte b=123;
+                              
