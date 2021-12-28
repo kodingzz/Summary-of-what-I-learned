@@ -94,7 +94,7 @@ ex)
 >> printf("%s", **Integer.toBinaryString(15)**); // 1111  
     
 > 8진수와 16진수에 접두사 붙이기
->>printf("%#o",15);  // 017
+>>printf("%#o",15);  // 017  
 >>printf("%#x",15);  // 0xf  
     
 > 실수 출력을 위한 지시자
