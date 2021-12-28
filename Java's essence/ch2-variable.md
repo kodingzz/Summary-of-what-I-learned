@@ -61,7 +61,8 @@ ex)
  |논리형|boolean||||
  |문자형||char|||
  |정수형|byte|short|int|long|
- |실수형|||float|double|
+ |실수형|||float|double|  
+    
  정수형에서는 int, 실수형에서는 double이 많이 쓰임.  
     
  # 기본형 표현범위
