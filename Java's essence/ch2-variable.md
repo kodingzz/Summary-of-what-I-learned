@@ -87,9 +87,9 @@ ex)
     >>printf("%x",0x1A)  // 1A
 # printf()의 지시자
 > 정수를 10진수,8진수,16진수로 출력
-    >> printf("%d",15);  //15
-    >> printf("%o",15);  // 17
-    >> printf("%s", **Integer.toBinaryString(15)**); // 1111
+        >> printf("%d",15);  //15
+        >> printf("%o",15);  // 17
+        >> printf("%s", **Integer.toBinaryString(15)**); // 1111
 > 8진수와 16진수에 접두사 붙이기
     >>printf("%#o",15);  // 017
     >>printf("%#x",15);  // 0xf
