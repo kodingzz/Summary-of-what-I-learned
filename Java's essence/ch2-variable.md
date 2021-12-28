@@ -57,7 +57,7 @@ ex)
 
 # 기본형 종류와 크기
  |종류/크기|1byte|2byte|4byte|8byte|
- |---|---|---|
+ |---|---|---|---|---|
  |논리형|boolean||||
  |문자형||char|||
  |정수형|byte|short|int|long|
