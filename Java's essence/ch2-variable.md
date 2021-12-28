@@ -111,7 +111,7 @@ ex)
 >> printnf("d=%14.10f\n",d) // 전체 14자리중에서 소수점아래 10자리, 정수 앞쪽은 공백 소수점아래는 0으로 채운다.
     
 >문자열  
->> printf("[%s]\n",url)  //[wwww.~]  
+>> printf("[%s]\n",url)  //[wwww.~~]  
 >> printf("[%.8s]\n",url)  //  [www.code]  전체문자중 8글자만 
 
                                  
