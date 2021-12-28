@@ -113,5 +113,25 @@ ex)
 >문자열  
 >> printf("[%s]\n",url)  //[wwww.~~]  
 >> printf("[%.8s]\n",url)  //  [www.code]  전체문자중 8글자만 
+    
+# 화면에서 입력받기 -Scanner
+> Scanner: 화면으로부터 데이터를 입력받는 기능을 제공하는 클래스
+> Scanner를 사용
+>> 1.import문 추가  // import java.util.Scanner;
+>> 2. Scanner 객체 생성  // Scanner scanner = new Scanner(System.in);  
+>> 3. Scanner 객체 이용 // int num= scanner.nextInt(); 입력받은 정수를 num에 저장  
+    String input=scanner.nextLine(); //입력받은 내용을 input에 저장  
+    int num= Integer.parseInt(input); // 문자열 input을 숫자 num으로 변환  
 
-                                 
+***숫자를 문자열로 바꾸는 방법: 숫자+" "
+문자열을 숫자로 바꾸는 방법: Integer.parseInt(input)***
+
+# 타입간의 변환방법  
+1. 숫자를 문자로 변환 - 숫자에 '0'을 더한다.  
+2. 문자를 숫자로 변환 - 문자에 '0'을 뺀다.  
+3. 숫자를 문자열로 변환 - 숫자에 " "을 더한다.  
+4. 문자열을 숫자로 변환 - Integer.parseInt("3")  
+5. 문자를 문자열로 변환 - 문자에 " "을 더한다.  
+6. 문자열을 문자로 변환 - "3".charAt(0) -> '3'
+ 
+    
