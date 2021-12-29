@@ -55,8 +55,28 @@ ex)byte b= 10; int i= b; // int 생략 가능
 int ->byte  
 ex)int ii=300; byte bb=(byte)ii;  // 생략이 불가능하다. 값손실이 일어났기 때문(300->44)
 
+## 산술 변환  
+"연산 전에 피연산자의 타입을 일치시키는 것"  
+1. 두 피연산자의 타입을 같게 일치시킨다.(더 큰 타입으로 일치)  
+           float+ int -> float +float ->float  
+2. 피연산자 타입이 int보다 작은 타입이면 int로 변환  
+           byte+ short ->int +int ->int  
+           char의 경우 문자코드를 이용  
 
+## Math.round()  
+실수를 소수 첫째자리에서 반올림한 정수 반환  
+long result = Math.round(4.52);   // 5 반환  
 
+## 문자열의 비교 
+문자열 비교에는 == 대신 equals()를 사용 
+String str1= "abc";  
+String str2= "abc";  
+System.out.println(str1.equals(str2))
+
+## 조건연산자 ? : (삼항연산자)  
+참 또는 거짓 반환  
+조건식의 결과에 따라 연산결과를 달리한다.  
+result = (x>y) : x: y ;    // 참일때 x, 거짓일때 y 반환  
 
 
 
