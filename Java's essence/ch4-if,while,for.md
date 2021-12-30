@@ -40,9 +40,9 @@ switch(result){
   case 1.0:     // error!!  실수x  
 
 ## 임의의 정수 만들기  Math.random()
-Math.random()- 0.0~1.0 사이의 임의의 double값 반환  
+Math.random()- 0.0-1.0 사이의 임의의 double값 반환  
 0.0<=Math.random()<1.0  
-ex) 1~3사이의 정수  
+ex) 1-3사이의 정수  
 1. 각변에 3을 곱한다. 0.0<=Math.random()*3<3.0   범위: 0~2.9999999
 2. 각 변을 int형으로 변환  0<=(int)(Math.random()*3)<3  범위: 0부터 2까지  
 3. 각 변에 1을 더한다. 1<=(int)(Math.random()*3)+1<4  범위: 1부터 3까지  
