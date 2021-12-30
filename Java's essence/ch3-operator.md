@@ -68,7 +68,7 @@ ex)int ii=300; byte bb=(byte)ii;  // 생략이 불가능하다. 값손실이 일
 long result = Math.round(4.52);   // 5 반환  
 
 ## 문자열의 비교 
-문자열 비교에는 == 대신 equals()를 사용 
+문자열 비교에는 == 대신 equals()를 사용  
 String str1= "abc";  
 String str2= "abc";  
 System.out.println(str1.equals(str2))
