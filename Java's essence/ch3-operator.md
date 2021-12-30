@@ -67,7 +67,7 @@ ex)int ii=300; byte bb=(byte)ii;  // 생략이 불가능하다. 값손실이 일
 실수를 소수 첫째자리에서 반올림한 정수 반환  
 long result = Math.round(4.52);   // 5 반환  
 
-## 문자열의 비교 
+## 문자열의 비교 equals()
 문자열 비교에는 == 대신 equals()를 사용  
 String str1= "abc";  
 String str2= "abc";  
