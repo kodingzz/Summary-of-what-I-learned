@@ -60,12 +60,13 @@ t.channel=7; // tv 인스턴스의 변수 channel 값 지정
 t.channelDown();   // tv 메서드 호출  
 tv클래스의 멤버(변수,메서드)모두 사용 가능하다.  
 
+
 ## 객체 배열
-객체 배열 == 참조변수 배열  
-Tv tv1,tv2,tv3  -> Tv[] tvarr= new Tv[3];  // Tv 참조변수 3개  
-tvarr[0]=new Tv();
-tvarr[1]=new Tv();
-tvarr[2]=new Tv();   // 각각의 참조변수에 객체지정   
+- 객체 배열 == 참조변수 배열  
+- Tv tv1,tv2,tv3  -> Tv[] tvarr= new Tv[3];  // Tv 참조변수 3개  
+- tvarr[0]=new Tv();
+- tvarr[1]=new Tv();
+- tvarr[2]=new Tv();   // 각각의 참조변수에 객체지정   
 간단히 하면,  Tv[] tvarr= { new Tv(), new Tv(), new Tv() };   
 
 참조변수 배열은 여러개의 참조변수를 하나의 배열로 묶은 것  
@@ -108,13 +109,18 @@ Card.height=300;   // cv앞에는 참조변수보다 클래스 이름을 쓴다.
 - 메서드 생성후 메서드 호출  
 - 하나의 메서드는 하나의 기능만 수행  
 
-메서드= 선언부 + 구현부  
-int add(int x,int y){   --> 선언부   // 입력 0~n개 가능
+### 메서드= 선언부 + 구현부  
+int add(int x,int y){   --> 선언부   // 입력 0-n개 가능
      int result =x + y;  
-     return result;     --> 구현부    // 출력 0~1개 가능  
+     return result;     --> 구현부    // 출력 0-1개 가능  
     }
  
+### 메서드 호출  
+ex) print99danAll();  
+int result= add(3,5);  
 
+## return문
+메서드 종료하고 호출한곳으로 돌아가는 역할  
 
 
 
