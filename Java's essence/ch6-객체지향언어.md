@@ -39,19 +39,14 @@ ex) TV(객체)
 1. 클래스 작성(설계도)  
 2. 객체 생성  
   클래스 객체를 참조하기 위한 참조변수 선언  
-  Tv t= new Tv();   // t는 tv를 조종하기 위한 리모콘같은 존재  , tv 객체 생성후 tv객체의 주소를 t에 저장
-3. 객체 사용 
-  t.channel=7; // tv 인스턴스의 변수 channel 값 지정   
-  t.channelDown();   // tv 메서드 호출  
-  tv클래스의 멤버(변수,메서드)모두 사용 가능하다.  
+  Tv t= new Tv();   // t는 tv를 조종하기 위한 리모콘같은 존재  , tv 객체 생성후 tv객체의 주소를 t에 저장  
   
-Tv t= new Tv();  
 <t>
 |t|
 |---|
-|0x100|  
-
-<Tv 객체>
+|0x100|    
+ 
+ <Tv 객체>
 |주소=0x100|
 |---|
 |color=null|
@@ -59,7 +54,17 @@ Tv t= new Tv();
 |channel=0|
 |power()|
 |channelUp()|
-|channelDown()|
+|channelDown()|  
+  
+3. 객체 사용 
+  t.channel=7; // tv 인스턴스의 변수 channel 값 지정   
+  t.channelDown();   // tv 메서드 호출  
+  tv클래스의 멤버(변수,메서드)모두 사용 가능하다.  
+  
+Tv t= new Tv();  
+       
+
+
 
 
 
