@@ -58,8 +58,6 @@ t.channel=7; // tv 인스턴스의 변수 channel 값 지정
 t.channelDown();   // tv 메서드 호출  
 tv클래스의 멤버(변수,메서드)모두 사용 가능하다.  
 
-       
-
 <t>
 |t|
 |---|
