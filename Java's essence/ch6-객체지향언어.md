@@ -43,7 +43,7 @@ ex) TV(객체)
   
 |t|
 |----|
-|0x100|    // 객체의 주소
+|0x100|   
  
 <Tv 객체>
 |주소=0x100|
@@ -60,10 +60,53 @@ t.channel=7; // tv 인스턴스의 변수 channel 값 지정
 t.channelDown();   // tv 메서드 호출  
 tv클래스의 멤버(변수,메서드)모두 사용 가능하다.  
 
+## 객체 배열
+객체 배열 == 참조변수 배열  
+Tv tv1,tv2,tv3  -> Tv[] tvarr= new Tv[3];  // Tv 참조변수 3개  
+tvarr[0]=new Tv();
+tvarr[1]=new Tv();
+tvarr[2]=new Tv();   // 각각의 참조변수에 객체지정   
+간단히 하면,  Tv[] tvarr= { new Tv(), new Tv(), new Tv() };   
+
+참조변수 배열은 여러개의 참조변수를 하나의 배열로 묶은 것  
+
+## 클래스 
+클래스는 설계도 외에도 데이터+함수, 사용자 정의 타입으로도 정의된다. 
+1. 데이터+ 함수  
+변수: 하나의 데이터 저장공간  
+배열: 같은종류의 여러 데이터 하나로 저장가능한 공간  
+구조체: 여러데이터를 하나로 저장 가능한 공간  
+클래스: 데이터(변수)와 함수(메서드)의 결합   
+
+2. 사용자 정의 타입  
+원하는 타입(클래스)을 직접 만들 수 있음.  
+ex) class Time{
+        int hour;
+        int minute;
+        int second;
+        }
+Time t= new Time();  
+t.hour, t.minute등 값 지정  
+
+## 변수의 종류
+클래스 영역- instance variable(iv), class variable(cv)  
+메서드 영역- local variable(lv)   // lv는 메서드 내에서만 유효  
+cv는 iv앞에 static을 붙인 변수이다.  
+객체는 iv를 묶어놓은 것.  따라서  객체생성 필수  
+cv는 객체생성 필요x  
+
+## 클래스 변수와 인스턴스 변수
+Card c= new Card();  //객체 생성  
+width, height이 cv라고 할때,  
+c.width=200;  
+c.height=300;  
+Card.width=200;  
+Card.height=300;   // cv앞에는 참조변수보다 클래스 이름을 쓴다.  
 
 
 
- 
+
+
 
 
 
