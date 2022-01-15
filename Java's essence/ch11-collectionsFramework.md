@@ -60,8 +60,35 @@
  - Map에는 iterator()가 없다.  
  - keySet(),valuses(),entrySet()를 호출해야한다.  
 
-
-
+ ## Arrays클래스
+ - 배열을 다루기 편리한 메서드 제공  
+ - 배열의 출력 - toString()  
+ - 배열의 복사 - copyOf(),copyOfRange()  / 새로운 배열을 생성해서 반환  
+ - 배열 채우기 - fill(), setAll() 
+ - 배열 정렬과 검색 - sort(). binarySearch()(이진탐색)  / 이진탐색은 정렬돼있어야 가능하다.  
+ - 다차원 배열의 출력 - deepToString()  
+ - 다차원 배열의 비교 - deepEquals()  
+ - 배열을 List로 변환 - asList(Object a)  
+ 
+ ##  Comparator와 Comparable  
+ - 객체 정렬에 필요한 메서드를 정의한 인터페이스  
+ - 정렬 기준을 제공한다.  
+ - compare()와 compareTo()는 두 객체의 비교결과를 반환하도록 작성되었고, 같으면 0, 오륹쪽이크면 음수, 왼쪽이 크면 양수이다.  
+ 
+ ## HashSet 
+ - 순서 x , 중복 x  
+ - Set인터페이스를 구현한 대표적인 컬렉션 클래스  
+ - 순서를 유지하려면 LinkedHashSet클래스 사용하면 된다.  
+ - HashSet은 객체를 저장하기전에 기존에 같은 객체가 있는지 확인 // 같은 객체가 있으면 저장하지않는다.  
+ - 중복을 확인하기 위해서 equals()와 hashCode()가 오버라이딩 되어 있어야함.  
+ 
+ ##  TreeSet  
+ - 이진 탐색 트리. 범위 탐색(from- to)과 정렬에 유리하다.  
+ - 이진트리는 모든 노드가 최대 2개이하의 하위노드를 가진다.  
+ - 이진 탐색 트리 : 부모보다 작은 값은 왼쪽, 큰값은 오른쪽에 저장  
+ - 이진 탐색 트리의 단점: 데이터가 많아질 수 록 추가,삭제에 시간이 더 걸린다.  
+ - TreeSet 데이터 저장에는 add메서드 사용  
+ 
 
 
 
